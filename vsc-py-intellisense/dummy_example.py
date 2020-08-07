@@ -47,5 +47,5 @@ root = ClassRoot()
 a = root.clients.get_class_a()
 
 # Not able to list function get_name() with variable a
-# but the function does works
+# but the function does work
 print(a.get_name())
