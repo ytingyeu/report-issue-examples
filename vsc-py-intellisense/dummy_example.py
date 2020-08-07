@@ -19,10 +19,10 @@ class ClientsFactory(object):
         self._root = root
 
     def get_class_a(self):
-        return self._root._get_clients('class.a')
+        return self._root._get_client('class.a')
 
     def get_class_b(self):
-        return self._root._get_clients('class.b')
+        return self._root._get_client('class.b')
 
 
 class ClassRoot(object):
@@ -30,7 +30,7 @@ class ClassRoot(object):
         self.clients = ClientsFactory(self)
         self._cache = {}
 
-    def _get_clients(self, client_type):
+    def _get_client(self, client_type):
         if client_type not in self._cache:
             self._cache[client_type] = self._get_instance(client_type)
         return self._cache[client_type]
