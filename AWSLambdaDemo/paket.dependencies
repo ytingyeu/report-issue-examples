@@ -1,0 +1,50 @@
+source https://api.nuget.org/v3/index.json
+framework: netcoreapp3.1, net6.0
+
+nuget Amazon.Extensions.Configuration.SystemsManager  ==  3.0.0
+nuget Amazon.Lambda.APIGatewayEvents  ==  2.4.0
+nuget Amazon.Lambda.Core  ==  2.1.0
+nuget Amazon.Lambda.Serialization.SystemTextJson  ==  2.2.0
+nuget Amazon.Lambda.SQSEvents  ==  2.1.0
+nuget Amazon.Lambda.TestUtilities == 2.0.0
+nuget Autofac == 6.3.0
+nuget Autofac.Extensions.DependencyInjection == 7.2.0
+nuget Dapper == 2.0.123
+nuget Dapper.Transaction == 2.0.35.2
+nuget FakeItEasy == 7.3.0
+nuget FluentAssertions == 6.4.0
+nuget FluentValidation == 10.3.6
+nuget Hl7.FhirPath == 4.3.0
+nuget Hl7.Fhir.Support == 4.3.0
+nuget Hl7.Fhir.Support.Poco == 4.3.0
+nuget Hl7.Fhir.Serialization == 4.3.0
+nuget Hl7.Fhir.R4 == 4.3.0
+nuget Hl7.Fhir.Specification.R4 == 4.3.0
+nuget HtmlAgilityPack 1.11.46
+nuget Microsoft.AspNetCore.Http.Extensions == 2.2.0
+nuget Microsoft.Extensions.Caching.Memory == 7.0.0
+nuget Microsoft.Extensions.Configuration == 7.0.0
+nuget Microsoft.Extensions.Configuration.UserSecrets == 6.0.0
+nuget Microsoft.Extensions.Hosting == 6.0.0
+nuget Microsoft.Extensions.Http == 6.0.0
+nuget Microsoft.Extensions.Http.Polly == 6.0.0
+nuget Microsoft.NET.Test.Sdk == 15.5.0
+nuget Moq == 4.16.1
+nuget NodaTime == 3.0.5
+nuget NodaTime.Serialization.JsonNet == 3.0.0
+nuget NodaTime.Serialization.SystemTextJson == 1.0.0
+nuget NUnit == 3.13.3
+nuget NUnit3TestAdapter == 4.3.0
+nuget NewtonSoft.JSON == 13.0.1
+nuget Polly.Extensions.Http == 3.0.0
+nuget Serilog == 2.10.0
+nuget Serilog.AspNetCore == 4.1.0
+nuget Serilog.Settings.Configuration == 3.3.0
+nuget Serilog.Sinks.Console == 4.1.0
+nuget Serilog.Sinks.File == 4.1.0
+nuget StackExchange.Redis == 2.2.88
+nuget System.Data.SqlClient == 4.6.0
+nuget System.IdentityModel.Tokens.Jwt == 6.25.0
+nuget System.Net.Http.Json 7.0.0
+nuget xunit == 2.3.1
+nuget xunit.runner.visualstudio == 2.3.1

@@ -1,0 +1,8 @@
+﻿Amazon.Extensions.Configuration.SystemsManager
+Amazon.Lambda.SQSEvents
+Amazon.Lambda.Core
+Amazon.Lambda.Serialization.SystemTextJson
+Amazon.Lambda.TestUtilities
+Autofac
+Autofac.Extensions.DependencyInjection
+Microsoft.Extensions.Hosting
